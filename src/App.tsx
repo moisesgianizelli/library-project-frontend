@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Navbar } from './layouts/NavbarAndFooter/Navbar';
-import { ExploreTopBooks } from './layouts/NavbarAndFooter/HomePage/ExploreTopBooks';
-import { Carousel } from './layouts/NavbarAndFooter/HomePage/Carousel';
+import { Navbar } from './layouts/NavbarAndFooter/NavbarAndFooter/Navbar';
+import { Footer } from './layouts/NavbarAndFooter/NavbarAndFooter/Footer';
+import { HomePage } from './layouts/NavbarAndFooter/HomePage/HomePage';
 
-function App() {
+export const App = () => {
   return (
     <div>
-    <Navbar />
-    <ExploreTopBooks/>
-    <Carousel/>
+      <Navbar />
+      <HomePage />
+      <Footer />
     </div>
   );
-}
-
-export default App;
+};
