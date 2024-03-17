@@ -51,5 +51,10 @@ export const Loans = () => {
       </div>
     );
   }
-  return null;
+  return (
+    <div>
+      {/*Desktop*/}
+      {/*Mobile*/}
+    </div>
+  );
 };
